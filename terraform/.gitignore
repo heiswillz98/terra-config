@@ -1,0 +1,14 @@
+# Terraform state files (store sensitive info about your infrastructure)
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform.lock.hcl
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfplan
+terraform.tfvars
+*.auto.tfvars
